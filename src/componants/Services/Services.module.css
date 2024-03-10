@@ -1,0 +1,42 @@
+.services_con {
+    height: 600px;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+  
+    & .services_title {
+      font-size: 35px;
+      margin-top: 60px;
+      font-weight: bold;
+      color: crimson;
+    }
+  
+    & .services_list {
+      margin-top: 110px;
+      display: flex;
+      justify-content: center;
+  
+  
+      & .services_items {
+          width: 300px;
+          margin: 0 50px;
+  
+          & svg {
+              width: 80px;
+              height: 80px;
+              color: crimson
+          }
+  
+          & h4 {
+              color: crimson;
+              font-size: 30px;
+              font-weight: bold;
+              margin-top: 25px 0;
+          }
+
+          & p {
+            color: goldenrod;
+          }
+      }
+    }
+  }

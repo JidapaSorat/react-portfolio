@@ -1,0 +1,11 @@
+footer {
+    height: 60px;
+    background-color: ivory;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & p {
+        color: goldenrod;
+    }
+}
